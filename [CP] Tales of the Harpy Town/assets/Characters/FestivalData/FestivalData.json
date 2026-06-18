@@ -432,7 +432,7 @@
 
 //
 //
-//After the backwoods debris have been removed.
+//After the backwoods debris have been removed
 //
 //
 
@@ -477,7 +477,7 @@
 {
 "Operation": "Append",
 "Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Bebel 28 67 down",
+"Value": "{{ModId}}_Bebel 29 68 down",
 "Delimiter": "/"
 },
 {
@@ -490,7 +490,7 @@
 {
 "Operation": "Append",
 "Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Anahi 28 69 up",
+"Value": "{{ModId}}_Anahi 30 64 down",
 "Delimiter": "/"
 },
 {
@@ -503,7 +503,7 @@
 {
 "Operation": "Append",
 "Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Mayara 35 69 left",
+"Value": "{{ModId}}_Mayara 33 70 right",
 "Delimiter": "/"
 },
 {
@@ -516,65 +516,13 @@
 {
 "Operation": "Append",
 "Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Francisco 29 68 left",
+"Value": "{{ModId}}_Francisco 31 63 down",
 "Delimiter": "/"
 },
 {
 "Operation": "Append",
 "Target": ["Entries", "MainEvent_additionalCharacters"],
 "Value": "{{ModId}}_Francisco 29 54 down",
-"Delimiter": "/"
-},
-//Adrianno//
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Adrianno 12 67 down",
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "MainEvent_additionalCharacters"],
-"Value": "{{ModId}}_Adrianno 12 67 down",
-"Delimiter": "/"
-},
-//Julieta//
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Julieta 25 75 down",
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "MainEvent_additionalCharacters"],
-"Value": "{{ModId}}_Julieta 25 75 up",
-"Delimiter": "/"
-},
-//Camelia//
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"], //Crisanto 22 58
-"Value": "{{ModId}}_Camelia 20 58 right",
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "MainEvent_additionalCharacters"],
-"Value": "{{ModId}}_Camelia 20 58 down",
-"Delimiter": "/"
-},
-//Levi//
-{
-"Operation": "Levi",
-"Target": ["Entries", "Set-Up_additionalCharacters"], //Nat 17 91
-"Value": "{{ModId}}_Levi 15 91 right",
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "MainEvent_additionalCharacters"],
-"Value": "{{ModId}}_Levi 15 91 down",
 "Delimiter": "/"
 }
 ]
@@ -593,13 +541,13 @@
 {
 "Operation": "Append",
 "Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Cida 12 52 down",
+"Value": "{{ModId}}_Cida 11 52 down",
 "Delimiter": "/"
 },
 {
 "Operation": "Append",
 "Target": ["Entries", "MainEvent_additionalCharacters"],
-"Value": "{{ModId}}_Cida 12 52 down",
+"Value": "{{ModId}}_Cida 11 52 down",
 "Delimiter": "/"
 },
 //Princess
@@ -619,7 +567,7 @@
 {
 "Operation": "Append",
 "Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Bebel 28 71 down",
+"Value": "{{ModId}}_Bebel 29 68 down",
 "Delimiter": "/"
 },
 {
@@ -632,7 +580,7 @@
 {
 "Operation": "Append",
 "Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Anahi 27 72 right",
+"Value": "{{ModId}}_Anahi 28 55 down",
 "Delimiter": "/"
 },
 {
@@ -645,81 +593,32 @@
 {
 "Operation": "Append",
 "Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Mayara 35 69 right",
+"Value": "{{ModId}}_Mayara 33 70 right",
 "Delimiter": "/"
 },
 {
 "Operation": "Append",
 "Target": ["Entries", "MainEvent_additionalCharacters"],
-"Value": "{{ModId}}_Mayara 32 101 down",
+"Value": "{{ModId}}_Mayara 32 62 down",
 "Delimiter": "/"
 },
-//Francisco,
+//Francisco
 {
 "Operation": "Append",
 "Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Francisco 28 73 up",
+"Value": "{{ModId}}_Francisco 29 54 down",
 "Delimiter": "/"
 },
 {
 "Operation": "Append",
 "Target": ["Entries", "MainEvent_additionalCharacters"],
-"Value": "{{ModId}}_Francisco 24 54 down",
-"Delimiter": "/"
-},
-//Adrianno
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Adrianno 13 66 up", //Serena:12 67 Valdemar: 14 67 Ravi: 13 68
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "MainEvent_additionalCharacters"],
-"Value": "{{ModId}}_Adrianno 13 66 down",
-"Delimiter": "/"
-},
-//Julieta
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Julieta 29 72 left",
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "MainEvent_additionalCharacters"],
-"Value": "{{ModId}}_Julieta 3 88 down",
-"Delimiter": "/"
-},
-//Camelia,
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Camelia 20 58 right", //Crisanto: 22 58
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "MainEvent_additionalCharacters"],
-"Value": "{{ModId}}_Camelia 20 58 down",
-"Delimiter": "/"
-},
-//Levi
-,
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Levi 16 91 right", //Nat: 18 91
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "MainEvent_additionalCharacters"],
-"Value": "{{ModId}}_Levi 16 91 right",
+"Value": "{{ModId}}_Francisco 29 54 down",
 "Delimiter": "/"
 }
+//Adrianno
+//Emilia
+//Camelia
+//Levi
 ]
 },
 //Cida
@@ -758,19 +657,6 @@
 { "{{ModId}}_Bebel": "{{i18n: CheshiresAtelier.THTexpansion_EFBebel1}}"
 }
 },
-//Bebel married
-{
-"LogName": "Egg Festival - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/spring13",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone",
- "Relationship:{{ModId}}_Bebel": "Married"
-},
-"Entries": 
-{ "{{ModId}}_Bebel": "{{i18n: CheshiresAtelier.THTexpansion_EFBebel1S}}"
-}
-},
 //Anahi
 {
 "LogName": "Egg Festival - Dialogue",
@@ -783,130 +669,7 @@
 { "{{ModId}}_Anahi": "{{i18n: CheshiresAtelier.THTexpansion_EFAnahi1}}"
 }
 },
-//Anahi married
-{
-"LogName": "Egg Festival - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/spring13",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone",
- "Relationship:{{ModId}}_Anahi": "Married"
-},
-"Entries": 
-{ "{{ModId}}_Anahi": "{{i18n: CheshiresAtelier.THTexpansion_EFAnahi1S}}"
-}
-},
-//Mayara
-{
-"LogName": "Egg Festival - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/spring13",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Mayara": "{{i18n: CheshiresAtelier.THTexpansion_EFMayara1}}"
-}
-},
-//Francisco
-{
-"LogName": "Egg Festival - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/spring13",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Francisco": "{{i18n: CheshiresAtelier.THTexpansion_EFFrancisco1}}"
-}
-},
-//Francisco married
-{
-"LogName": "Egg Festival - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/spring13",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone",
- "Relationship:{{ModId}}_Francisco": "Married"
-},
-"Entries": 
-{ "{{ModId}}_Francisco": "{{i18n: CheshiresAtelier.THTexpansion_EFFrancisco1S}}"
-}
-},
-//Adrianno
-{
-"LogName": "Egg Festival - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/spring13",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Adrianno": "{{i18n: CheshiresAtelier.THTexpansion_EFAdrianno1}}"
-}
-},
-//Adrianno married
-{
-"LogName": "Egg Festival - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/spring13",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone",
- "Relationship:{{ModId}}_Adrianno": "Married"
-},
-"Entries": 
-{ "{{ModId}}_Adrianno": "{{i18n: CheshiresAtelier.THTexpansion_EFAdrianno1S}}"
-}
-},
-//Julieta
-{
-"LogName": "Egg Festival - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/spring13",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Julieta": "{{i18n: CheshiresAtelier.THTexpansion_EFJu1}}"
-}
-},
-//Julieta married
-{
-"LogName": "Egg Festival - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/spring13",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone",
- "Relationship:{{ModId}}_Julieta": "Married"
-},
-"Entries": 
-{ "{{ModId}}_Julieta": "{{i18n: CheshiresAtelier.THTexpansion_EFJu1S}}"
-}
-},
-//Camelia
-{
-"LogName": "Egg Festival - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/spring13",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Camelia": "{{i18n: CheshiresAtelier.THTexpansion_EFCamelia1}}"
-}
-},
-//Levi
-{
-"LogName": "Egg Festival - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/spring13",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Levi": "{{i18n: CheshiresAtelier.THTexpansion_EFLevi1}}"
-}
-},
+
 {
 "LogName": "Flower Dance",
 "Action": "EditData",
@@ -937,7 +700,7 @@
 {
 "Operation": "Append",
 "Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Anahi 86 33 left",
+"Value": "{{ModId}}_Anahi 86 33 right",
 "Delimiter": "/"
 },
 {
@@ -945,36 +708,12 @@
 "Target": ["Entries", "Set-Up_additionalCharacters"],
 "Value": "{{ModId}}_Francisco 83 28 right",
 "Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Adrianno 78 28 right", //Ravi: 79 20 Serena: 79 27 Valdemar: 80 28
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Julieta 93 39 down",
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Camelia 82 36 up",
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Levi 69 23 down",
-"Delimiter": "/"
 }
 ]
 },
 //Cida
 {
-"LogName": "FF - Dialogue",
+"LogName": "Egg Festival - Dialogue",
 "Action": "EditData",
 "Target": "Data/Festivals/spring24",
 "When": {
@@ -986,7 +725,7 @@
 },
 //Princess
 {
-"LogName": "FF - Dialogue",
+"LogName": "Egg Festival - Dialogue",
 "Action": "EditData",
 "Target": "Data/Festivals/spring24",
 "When": {
@@ -998,7 +737,7 @@
 },
 //Bebel
 {
-"LogName": "FF - Dialogue",
+"LogName": "Egg Festival - Dialogue",
 "Action": "EditData",
 "Target": "Data/Festivals/spring24",
 "When": {
@@ -1008,22 +747,9 @@
 { "{{ModId}}_Bebel": "{{i18n: CheshiresAtelier.THTexpansion_FFBebel1}}"
 }
 },
-//Bebel Marriage
-{
-"LogName": "FF - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/spring24",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone",
- "Relationship:{{ModId}}_Bebel": "Married"
-},
-"Entries": 
-{ "{{ModId}}_Bebel": "{{i18n: CheshiresAtelier.THTexpansion_FFBebel1S}}"
-}
-},
 //Anahi
 {
-"LogName": "FF - Dialogue",
+"LogName": "Egg Festival - Dialogue",
 "Action": "EditData",
 "Target": "Data/Festivals/spring24",
 "When": {
@@ -1033,22 +759,9 @@
 { "{{ModId}}_Anahi": "{{i18n: CheshiresAtelier.THTexpansion_FFAnahi1}}"
 }
 },
-//Anahi Marriage
-{
-"LogName": "FF - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/spring24",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone",
- "Relationship:{{ModId}}_Anahi": "Married"
-},
-"Entries": 
-{ "{{ModId}}_Anahi": "{{i18n: CheshiresAtelier.THTexpansion_FFAnahi1S}}"
-}
-},
 //Francisco
 {
-"LogName": "FF - Dialogue",
+"LogName": "Egg Festival - Dialogue",
 "Action": "EditData",
 "Target": "Data/Festivals/spring24",
 "When": {
@@ -1058,609 +771,7 @@
 { "{{ModId}}_Francisco": "{{i18n: CheshiresAtelier.THTexpansion_FFFrancisco1}}"
 }
 },
-//Francisco Marriage
-{
-"LogName": "FF - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/spring24",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone",
- "Relationship:{{ModId}}_Francisco": "Married"
-},
-"Entries": 
-{ "{{ModId}}_Francisco": "{{i18n: CheshiresAtelier.THTexpansion_FFFrancisco1S}}"
-}
-},
-//Adrianno
-{
-"LogName": "FF - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/spring24",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Adrianno": "{{i18n: CheshiresAtelier.THTexpansion_FFAdrianno1}}"
-}
-},
-//Adrianno Marriage
-{
-"LogName": "FF - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/spring24",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone",
- "Relationship:{{ModId}}_Adrianno": "Married"
-},
-"Entries": 
-{ "{{ModId}}_Adrianno": "{{i18n: CheshiresAtelier.THTexpansion_FFAdrianno1S}}"
-}
-},
-//Julieta
-{
-"LogName": "FF - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/spring24",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Julieta": "{{i18n: CheshiresAtelier.THTexpansion_FFJu1}}"
-}
-},
-//Julieta Marriage
-{
-"LogName": "FF - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/spring24",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone",
- "Relationship:{{ModId}}_Julieta": "Married"
-},
-"Entries": 
-{ "{{ModId}}_Julieta": "{{i18n: CheshiresAtelier.THTexpansion_FFJu1S}}"
-}
-},
-//Camelia
-{
-"LogName": "FF - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/spring24",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Camelia": "{{i18n: CheshiresAtelier.THTexpansion_FFCamelia1}}"
-}
-},
-//Levi
-{
-"LogName": "FF - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/spring24",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Levi": "{{i18n: CheshiresAtelier.THTexpansion_FFLevi1}}"
-}
-},
-//Luau
-{
-"LogName": "Luau",
-"Action": "EditData",
-"Target": "Data/Festivals/summer11",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"TextOperations":
- [
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Cida 3 5 down",
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Princess 4 5 down",
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Bebel 33 12 right",
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Anahi 25 18 right",
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Mayara 39 10 down",
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Francisco 24 33 left",
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Adrianno 24 32 left",
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Julieta 34 6 down",
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Camelia 55 20 left", //Crisanto: 53 20
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Levi 13 34 left", //Nat: 11 34
-"Delimiter": "/"
-}
-]
-},
-//Cida
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer11",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Cida": "{{i18n: CheshiresAtelier.THTexpansion_LuauCida2}}"
-}
-},
-//Princess
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer11",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Princess": "{{i18n: CheshiresAtelier.THTexpansion_LuauPrincess2}}"
-}
-},
-//Bebel
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer11",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Bebel": "{{i18n: CheshiresAtelier.THTexpansion_LuauBebel1}}"
-}
-},
-//Bebel marriage
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer11",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone",
- "Relationship:{{ModId}}_Bebel": "Married"
-},
-"Entries": 
-{ "{{ModId}}_Bebel": "{{i18n: CheshiresAtelier.THTexpansion_LuauBebel1S}}"
-}
-},
-//Anahi
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer11",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Anahi": "{{i18n: CheshiresAtelier.THTexpansion_LuauAnahi1}}"
-}
-},
-//Anahi marriage
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer11",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone",
- "Relationship:{{ModId}}_Anahi": "Married"
-},
-"Entries": 
-{ "{{ModId}}_Anahi": "{{i18n: CheshiresAtelier.THTexpansion_LuauAnahi1S}}"
-}
-},
-//Mayara
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer11",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Mayara": "{{i18n: CheshiresAtelier.THTexpansion_LuauMayara1}}"
-}
-},
-//Francisco
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer11",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Francisco": "{{i18n: CheshiresAtelier.THTexpansion_LuauFrancisco1}}"
-}
-},
-//Francisco marriage
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer11",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone",
- "Relationship:{{ModId}}_Francisco": "Married"
-},
-"Entries": 
-{ "{{ModId}}_Francisco": "{{i18n: CheshiresAtelier.THTexpansion_LuauFrancisco1S}}"
-}
-},
-//Adrianno
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer11",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Adrianno": "{{i18n: CheshiresAtelier.THTexpansion_LuauAdrianno1}}"
-}
-},
-//Adrianno marriage
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer11",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone",
- "Relationship:{{ModId}}_Adrianno": "Married"
-},
-"Entries": 
-{ "{{ModId}}_Adrianno": "{{i18n: CheshiresAtelier.THTexpansion_LuauAdrianno1S}}"
-}
-},
-//Julieta
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer11",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Julieta": "{{i18n: CheshiresAtelier.THTexpansion_LuauJu1}}"
-}
-},
-//Julieta marriage
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer11",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone",
- "Relationship:{{ModId}}_Julieta": "Married"
-},
-"Entries": 
-{ "{{ModId}}_Julieta": "{{i18n: CheshiresAtelier.THTexpansion_LuauJu1S}}"
-}
-},
-//Camelia
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer11",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Camelia": "{{i18n: CheshiresAtelier.THTexpansion_LuauCamelia1}}"
-}
-},
-//Levi
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer11",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Levi": "{{i18n: CheshiresAtelier.THTexpansion_LuauLevi1}}"
-}
-},
-//Moonlight Jellies
 
-
-{
-"LogName": "Dance of the Moonlight Jellies",
-"Action": "EditData",
-"Target": "Data/Festivals/summer28",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"TextOperations":
-[
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Cida 37 1 right",
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Princess 36 3 left",
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Bebel 21 10 down", //Mavi: left20 11 Lucao:right22 11 Bernardo:up21 12
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Anahi 37 14 down", //Raoni: 38 14 Kaíque: 36 14 Alamanda: 35 14
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Mayara 28 36 down",
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Francisco 14 13 down",
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Adrianno 18 7 down", //Serena: 19 7 Valdemar: 20 7 Ravi: 17 7
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Julieta 27 13 down",
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Camelia 26 13 down",
-"Delimiter": "/"
-},
-{
-"Operation": "Append",
-"Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Levi 15 13 down",
-"Delimiter": "/"
-},
-]
-},
-//Cida
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer28",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Cida": "{{i18n: CheshiresAtelier.THTexpansion_MJcida2}}"
-}
-},
-//Princess
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer28",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Princess": "{{i18n: CheshiresAtelier.THTexpansion_MJprincess1}}"
-}
-},
-//Bebel
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer28",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Bebel": "{{i18n: CheshiresAtelier.THTexpansion_MJBebel1}}"
-}
-},
-//Bebel marriage
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer28",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone",
- "Relationship:{{ModId}}_Bebel": "Married"
-},
-"Entries": 
-{ "{{ModId}}_Bebel": "{{i18n: CheshiresAtelier.THTexpansion_MJBebel1S}}"
-}
-},
-//Anahi
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer28",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Anahi": "{{i18n: CheshiresAtelier.THTexpansion_MJAnahi1}}"
-}
-},
-//Anahi marriage
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer28",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone",
- "Relationship:{{ModId}}_Anahi": "Married"
-},
-"Entries": 
-{ "{{ModId}}_Anahi": "{{i18n: CheshiresAtelier.THTexpansion_MJAnahi1S}}"
-}
-},
-//Mayara
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer28",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Mayara": "{{i18n: CheshiresAtelier.THTexpansion_MJMayara1}}"
-}
-},
-//Francisco
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer28",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Francisco": "{{i18n: CheshiresAtelier.THTexpansion_MJFrancisco1}}"
-}
-},
-//Francisco marriage
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer28",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone",
- "Relationship:{{ModId}}_Francisco": "Married"
-},
-"Entries": 
-{ "{{ModId}}_Francisco": "{{i18n: CheshiresAtelier.THTexpansion_MJFrancisco1S}}"
-}
-},
-//Adrianno
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer28",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Adrianno": "{{i18n: CheshiresAtelier.THTexpansion_MJAdrianno1}}"
-}
-},
-//Adrianno marriage
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer28",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone",
- "Relationship:{{ModId}}_Adrianno": "Married"
-},
-"Entries": 
-{ "{{ModId}}_Adrianno": "{{i18n: CheshiresAtelier.THTexpansion_MJAdrianno1S}}"
-}
-},
-//Julieta
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer28",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Julieta": "{{i18n: CheshiresAtelier.THTexpansion_MJJu1}}"
-}
-},
-//Julieta marriage
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer28",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone",
- "Relationship:{{ModId}}_Julieta": "Married"
-},
-"Entries": 
-{ "{{ModId}}_Julieta": "{{i18n: CheshiresAtelier.THTexpansion_MJJu1S}}"
-}
-},
-//Camelia
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer28",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Camelia": "{{i18n: CheshiresAtelier.THTexpansion_MJCamelia1}}"
-}
-},
-//Levi
-{
-"LogName": "Luau - Dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer28",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
-},
-"Entries": 
-{ "{{ModId}}_Levi": "{{i18n: CheshiresAtelier.THTexpansion_MJLevi1}}"
-}
-},
 //sdv fair
 //vanilla
 {
@@ -1699,7 +810,7 @@
 {
 "Operation": "Append",
 "Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Mayara 44 93 up",
+"Value": "{{ModId}}_Mayara 41 87 right",
 "Delimiter": "/"
 },
 {
@@ -1711,7 +822,7 @@
 {
 "Operation": "Append",
 "Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Adrianno 12 59 down", //Ravi: 11 60 right Serena: 13 60 left Valdemar: 12 61 up
+"Value": "{{ModId}}_Adrianno 19 63 down",
 "Delimiter": "/"
 },
 {
@@ -1729,7 +840,7 @@
 {
 "Operation": "Append",
 "Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Levi 66 98 left", //Nat: 64 98
+"Value": "{{ModId}}_Levi 66 98 left",
 "Delimiter": "/"
 }
 
@@ -1769,13 +880,13 @@
 {
 "Operation": "Append",
 "Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Anahi 23 79 up",
+"Value": "{{ModId}}_Anahi 26 78 left",
 "Delimiter": "/"
 },
 {
 "Operation": "Append",
 "Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Mayara 44 93 down",
+"Value": "{{ModId}}_Mayara 44 88 down",
 "Delimiter": "/"
 },
 {
@@ -1787,7 +898,7 @@
 {
 "Operation": "Append",
 "Target": ["Entries", "Set-Up_additionalCharacters"],
-"Value": "{{ModId}}_Adrianno 56 95 left", //Ravi: 57 94 down Serena: 58 95 left Valdemar: 57 96 up
+"Value": "{{ModId}}_Adrianno 56 95 left",
 "Delimiter": "/"
 },
 {
@@ -1850,34 +961,10 @@
 "Action": "EditData",
 "Target": "Data/Festivals/fall16",
 "When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone",
- "Relationship:{{ModId}}_Bebel": "Married"
-},
-"Entries": 
-{ "{{ModId}}_Bebel": "{{i18n: CheshiresAtelier.THTexpansion_FairBebel1S}}"
-}
-},
-{
-"LogName": "Stardew Valley Fair",
-"Action": "EditData",
-"Target": "Data/Festivals/fall16",
-"When": {
 "HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
 },
 "Entries": 
 { "{{ModId}}_Anahi": "{{i18n: CheshiresAtelier.THTexpansion_FairAnahi1}}"
-}
-},
-{
-"LogName": "Stardew Valley Fair",
-"Action": "EditData",
-"Target": "Data/Festivals/fall16",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone",
- "Relationship:{{ModId}}_Anahi": "Married"
-},
-"Entries": 
-{ "{{ModId}}_Anahi": "{{i18n: CheshiresAtelier.THTexpansion_FairAnahi1S}}"
 }
 },
 {
@@ -1907,18 +994,6 @@
 "Action": "EditData",
 "Target": "Data/Festivals/fall16",
 "When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone",
- "Relationship:{{ModId}}_Francisco": "Married"
-},
-"Entries": 
-{ "{{ModId}}_Francisco": "{{i18n: CheshiresAtelier.THTexpansion_FairFrancisco1S}}"
-}
-},
-{
-"LogName": "Stardew Valley Fair",
-"Action": "EditData",
-"Target": "Data/Festivals/fall16",
-"When": {
 "HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
 },
 "Entries": 
@@ -1930,34 +1005,10 @@
 "Action": "EditData",
 "Target": "Data/Festivals/fall16",
 "When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone",
- "Relationship:{{ModId}}_Adrianno": "Married"
-},
-"Entries": 
-{ "{{ModId}}_Adrianno": "{{i18n: CheshiresAtelier.THTexpansion_FairAdrianno1S}}"
-}
-},
-{
-"LogName": "Stardew Valley Fair",
-"Action": "EditData",
-"Target": "Data/Festivals/fall16",
-"When": {
 "HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
 },
 "Entries": 
 { "{{ModId}}_Julieta": "{{i18n: CheshiresAtelier.THTexpansion_FairJu1}}"
-}
-},
-{
-"LogName": "Stardew Valley Fair",
-"Action": "EditData",
-"Target": "Data/Festivals/fall16",
-"When": {
-"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone",
- "Relationship:{{ModId}}_Julieta": "Married"
-},
-"Entries": 
-{ "{{ModId}}_Julieta": "{{i18n: CheshiresAtelier.THTexpansion_FairJu1S}}"
 }
 },
 {
