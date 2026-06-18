@@ -11,7 +11,7 @@
 				"{{ModId}}_Arapaima": {
 					"Id": "{{ModId}}_Arapaima",
 					"ItemId": "(O){{ModId}}_Arapaima",
-					"Condition": "LOCATION_Season Here Spring, WEATHER Here Rainy"
+					"Condition": "LOCATION_Season Here Spring, WEATHER Here Rain"
 				},
 				"{{ModId}}_BlackPacu": {
 					"Id": "{{ModId}}_BlackPacu",
@@ -26,7 +26,7 @@
 				"{{ModId}}_PacuPeva": {
 					"Id": "{{ModId}}_PacuPeva",
 					"ItemId": "(O){{ModId}}_PacuPeva",
-					"Condition": "LOCATION_Season Here Summer Fall, WEATHER Here Rainy"
+					"Condition": "LOCATION_Season Here Summer Fall, WEATHER Here Rain"
 				},
 				"{{ModId}}_Piranha": {
 					"Id": "{{ModId}}_Piranha",
@@ -73,7 +73,7 @@
 				"{{ModId}}_Arapaima": {
 					"Id": "{{ModId}}_Arapaima",
 					"ItemId": "(O){{ModId}}_Arapaima",
-					"Condition": "LOCATION_Season Here Spring, WEATHER Here Rainy"
+					"Condition": "LOCATION_Season Here Spring, WEATHER Here Rain"
 				},
 				"{{ModId}}_BlackPacu": {
 					"Id": "{{ModId}}_BlackPacu",
@@ -83,7 +83,7 @@
 				"{{ModId}}_PacuPeva": {
 					"Id": "{{ModId}}_PacuPeva",
 					"ItemId": "(O){{ModId}}_PacuPeva",
-					"Condition": "LOCATION_Season Here Summer Fall, WEATHER Here Rainy"
+					"Condition": "LOCATION_Season Here Summer Fall, WEATHER Here Rain"
 				},
 				"{{ModId}}_Piranha": {
 					"Id": "{{ModId}}_Piranha",
@@ -99,6 +99,112 @@
 					"Id": "{{ModId}}_Traira",
 					"ItemId": "(O){{ModId}}_Traira",
 					"Condition": "LOCATION_Season Here Winter, WEATHER Here Sun"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"CheshiresAtelier.THTexpansion_THTbeach",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}_CommonSnook": {
+					"Id": "{{ModId}}_CommonSnook",
+					"ItemId": "(O){{ModId}}_CommonSnook",
+					"Condition": "LOCATION_Season Here Summer"
+				},
+				"{{ModId}}_Croaker": {
+					"Id": "{{ModId}}_Croaker",
+					"ItemId": "(O){{ModId}}_Croaker",
+					"Condition": "LOCATION_Season Here Winter"
+				},
+				"{{ModId}}_BlackGrouper": {
+					"Id": "{{ModId}}_BlackGrouper",
+					"ItemId": "(O){{ModId}}_BlackGrouper",
+					"Condition": "LOCATION_Season Here Spring Summer"
+				},
+				"{{ModId}}_Dogfish": {
+					"Id": "{{ModId}}_Dogfish",
+					"ItemId": "(O){{ModId}}_Dogfish",
+					"Condition": "LOCATION_Season Here Fall"
+				},
+				"{{ModId}}_Salema": {
+					"Id": "{{ModId}}_Salema",
+					"ItemId": "(O){{ModId}}_Salema",
+					"Condition": "LOCATION_Season Here Spring Summer, WEATHER Here Sun"
+				},
+				"{{ModId}}_SmoothWeakfish": {
+					"Id": "{{ModId}}_SmoothWeakfish",
+					"ItemId": "(O){{ModId}}_SmoothWeakfish",
+					"Condition": "LOCATION_Season Here Winter"
+				},
+				"{{ModId}}_AtlanticMoonfish": {
+					"Id": "{{ModId}}_AtlanticMoonfish",
+					"ItemId": "(O){{ModId}}_AtlanticMoonfish",
+					"Condition": "LOCATION_Season Here Spring"
+				},
+				"{{ModId}}_Mackerel": {
+					"Id": "{{ModId}}_Mackerel",
+					"ItemId": "(O){{ModId}}_Mackerel",
+					"Condition": "LOCATION_Season Here Winter"
+				},
+				"{{ModId}}_Barracuda": {
+					"Id": "{{ModId}}_Barracuda",
+					"ItemId": "(O){{ModId}}_Barracuda",
+					"Condition": "LOCATION_Season Here Fall"
+				},
+				"{{ModId}}_Needlefish": {
+					"Id": "{{ModId}}_Needlefish",
+					"ItemId": "(O){{ModId}}_Needlefish",
+					"Condition": "LOCATION_Season Here Spring Summer"
+				},
+				"{{ModId}}_Cobia": {
+					"Id": "{{ModId}}_Cobia",
+					"ItemId": "(O){{ModId}}_Cobia",
+					"Condition": "LOCATION_Season Here Summer Fall"
+				},
+				"{{ModId}}_NamoradoSandperch": {
+					"Id": "{{ModId}}_NamoradoSandperch",
+					"ItemId": "(O){{ModId}}_NamoradoSandperch",
+					"Condition": "LOCATION_Season Here Summer Fall, WEATHER Here Rain"
+				},
+				"{{ModId}}_DolphinFish": {
+					"Id": "{{ModId}}_DolphinFish",
+					"ItemId": "(O){{ModId}}_DolphinFish",
+					"Condition": "LOCATION_Season Here Summer, WEATHER Here Sun"
+				},
+				"{{ModId}}_YellowtailAmberjack": {
+					"Id": "{{ModId}}_YellowtailAmberjack",
+					"ItemId": "(O){{ModId}}_YellowtailAmberjack",
+					"Condition": "LOCATION_Season Here Spring Summer, WEATHER Here Sun"
+				},
+				"{{ModId}}_Monkfish": {
+					"Id": "{{ModId}}_Monkfish",
+					"ItemId": "(O){{ModId}}_Monkfish",
+					"Condition": "LOCATION_Season Here Fall Winter"
+				},
+				"{{ModId}}_Guitarfish": {
+					"Id": "{{ModId}}_Guitarfish",
+					"ItemId": "(O){{ModId}}_Guitarfish",
+					"Condition": "LOCATION_Season Here Fall, WEATHER Here Rain"
+				},
+				"{{ModId}}_Opah": {
+					"Id": "{{ModId}}_Opah",
+					"ItemId": "(O){{ModId}}_Opah",
+					"Condition": "LOCATION_Season Here Winter, WEATHER Here Sun"
+				},
+				"{{ModId}}_Pufferkitty": {
+					"Id": "{{ModId}}_Pufferkitty",
+					"ItemId": "(O){{ModId}}_Pufferkitty",
+					"Condition": "LOCATION_Season Here Spring Summer"
+				},
+				"{{ModId}}_Oarfish": {
+					"Id": "{{ModId}}_Oarfish",
+					"ItemId": "(O){{ModId}}_Oarfish",
+					"Condition": "LOCATION_Season Here Fall Winter",
+					"IsBossFish": true
 				}
 			}
 		}
