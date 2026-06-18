@@ -1,0 +1,35 @@
+{
+  "Name": "Tales of the Harpy Town",
+  "Author": "CheshiresAtelier",
+  "Version": "1.0.0",
+  "Description": "A Stardew Valley expansion mod. (Testing)",
+  "UniqueID": "CheshiresAtelier.THTexpansion",
+  "UpdateKeys": [
+    "Nexus:0"
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "mistyspring.ItemExtensions",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "DLX.Bundles",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Spiderbuttons.BETAS",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "spacechase0.SpaceCore",
+      "IsRequired": true
+    }
+  ]
+}

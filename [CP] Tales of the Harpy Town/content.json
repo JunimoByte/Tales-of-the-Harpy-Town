@@ -1,0 +1,1836 @@
+{
+	"Format": "2.9.0",
+	"Changes": [
+		{
+			"LogName": "Add custom locations",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"{{ModId}}_THTbackwoods": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTbackwoods"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map1}}",
+					"DefaultArrivalTile": {
+						"X": 13,
+						"Y": 42
+					},
+					"Fish": [
+						{
+							"Id": "THTbackwoods_Fish",
+							"ItemId": "LOCATION_FISH Backwoods BOBBER_X BOBBER_Y WATER_DEPTH"
+						}
+					],
+					"Forage": [
+						{
+							"ID": "{{ModId}}_SpawnSpringForage1",
+							"RandomItemId": [
+								"(O){{ModId}}_BarbadosCherry",
+								"(O){{ModId}}_LilacTasselflower",
+								"(O){{ModId}}_TridaxDaisy"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Spring"
+						},
+						{
+							"ID": "{{ModId}}_SpawnSummerForage1",
+							"RandomItemId": [
+								"(O){{ModId}}_BengalDayflower",
+								"(O){{ModId}}_BlackNightshade",
+								"(O){{ModId}}_GlobeAmaranth"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Summer"
+						},
+						{
+							"ID": "{{ModId}}_SpawnFallForage1",
+							"RandomItemId": [
+								"(O){{ModId}}_CosmoFlower",
+								"(O){{ModId}}_WildCoquinho",
+								"(O){{ModId}}_WildSurinamCherry"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Fall"
+						},
+						{
+							"ID": "{{ModId}}_SpawnWinterForage3",
+							"RandomItemId": [
+								"(O){{ModId}}_WildRosemary"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Winter"
+						}
+					]
+				},
+				"{{ModId}}_THTsecretPlace1": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTsecretPlace1"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map2}}",
+					"DefaultArrivalTile": {
+						"X": 23,
+						"Y": 27
+					},
+					"Forage": [
+						{
+							"ID": "{{ModId}}_SpawnSpringForage2",
+							"RandomItemId": [
+								"(O){{ModId}}_BarbadosCherry",
+								"(O){{ModId}}_LilacTasselflower",
+								"(O){{ModId}}_TridaxDaisy"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Spring"
+						},
+						{
+							"ID": "{{ModId}}_SpawnSummerForage2",
+							"RandomItemId": [
+								"(O){{ModId}}_BengalDayflower",
+								"(O){{ModId}}_BlackNightshade",
+								"(O){{ModId}}_GlobeAmaranth"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Summer"
+						},
+						{
+							"ID": "{{ModId}}_SpawnFallForage2",
+							"RandomItemId": [
+								"(O){{ModId}}_CosmoFlower",
+								"(O){{ModId}}_WildCoquinho",
+								"(O){{ModId}}_WildSurinamCherry"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Fall"
+						},
+						{
+							"ID": "{{ModId}}_SpawnWinterForage2",
+							"RandomItemId": [
+								"(O){{ModId}}_WildRosemary"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Winter"
+						}
+					]
+				},
+				"{{ModId}}_THTBackwoodsStairs": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTBackwoodsStairs"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map3}}",
+					"DefaultArrivalTile": {
+						"X": 2,
+						"Y": 18
+					},
+					"Forage": [
+						{
+							"ID": "{{ModId}}_SpawnSpringForage3",
+							"RandomItemId": [
+								"(O){{ModId}}_BarbadosCherry",
+								"(O){{ModId}}_LilacTasselflower",
+								"(O){{ModId}}_TridaxDaisy"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Spring"
+						},
+						{
+							"ID": "{{ModId}}_SpawnSummerForage3",
+							"RandomItemId": [
+								"(O){{ModId}}_BengalDayflower",
+								"(O){{ModId}}_BlackNightshade",
+								"(O){{ModId}}_GlobeAmaranth"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Summer"
+						},
+						{
+							"ID": "{{ModId}}_SpawnFallForage3",
+							"RandomItemId": [
+								"(O){{ModId}}_CosmoFlower",
+								"(O){{ModId}}_WildCoquinho",
+								"(O){{ModId}}_WildSurinamCherry"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Fall"
+						},
+						{
+							"ID": "{{ModId}}_SpawnWinterForage3",
+							"RandomItemId": [
+								"(O){{ModId}}_WildRosemary"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Winter"
+						}
+					]
+				},
+				"{{ModId}}_THTBackwoodsStairs01": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTBackwoodsStairs01"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map3}}"
+				},
+				"{{ModId}}_THTtown": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTtown"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map4}}",
+					"DefaultArrivalTile": {
+						"X": 44,
+						"Y": 72
+					},
+					"Forage": [
+						{
+							"ID": "{{ModId}}_SpawnSpringForage4",
+							"RandomItemId": [
+								"(O){{ModId}}_BarbadosCherry",
+								"(O){{ModId}}_LilacTasselflower",
+								"(O){{ModId}}_TridaxDaisy"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Spring"
+						},
+						{
+							"ID": "{{ModId}}_SpawnSummerForage4",
+							"RandomItemId": [
+								"(O){{ModId}}_BengalDayflower",
+								"(O){{ModId}}_BlackNightshade",
+								"(O){{ModId}}_GlobeAmaranth"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Summer"
+						},
+						{
+							"ID": "{{ModId}}_SpawnFallForage4",
+							"RandomItemId": [
+								"(O){{ModId}}_CosmoFlower",
+								"(O){{ModId}}_WildCoquinho",
+								"(O){{ModId}}_WildSurinamCherry"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Fall"
+						},
+						{
+							"ID": "{{ModId}}_SpawnWinterForage4",
+							"RandomItemId": [
+								"(O){{ModId}}_WildRosemary"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Winter"
+						}
+					]
+				},
+				"{{ModId}}_THTCidasHouse": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTCidasHouse"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map5}}",
+					"DefaultArrivalTile": {
+						"X": 9,
+						"Y": 19
+					}
+				},
+				"{{ModId}}_THTbeach": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTbeach"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map6}}",
+					"DefaultArrivalTile": {
+						"X": 3,
+						"Y": 12
+					},
+					"Fish": [
+						{
+							"Id": "THTbeach_Fish",
+							"ItemId": "LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH"
+						}
+					],
+					"Forage": [
+						{
+							"ID": "{{ModId}}_SpawnSpringForage5",
+							"RandomItemId": [
+								"(O)88",
+								"(O)397",
+								"(O)372"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Spring"
+						},
+						{
+							"ID": "{{ModId}}_SpawnSummerForage5",
+							"RandomItemId": [
+								"(O)88",
+								"(O)394",
+								"(O)152"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Summer"
+						},
+						{
+							"ID": "{{ModId}}_SpawnFallForage5",
+							"RandomItemId": [
+								"(O)88",
+								"(O)372",
+								"(O)393"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Fall"
+						},
+						{
+							"ID": "{{ModId}}_SpawnWinterForage5",
+							"RandomItemId": [
+								"(O){{ModId}}_CrystalRose",
+								"(O)392",
+								"(O)718"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Winter"
+						}
+					]
+				},
+				"{{ModId}}_THTsecretPlace2": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTsecretPlace2"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map7}}",
+					"DefaultArrivalTile": {
+						"X": 36,
+						"Y": 16
+					},
+					"Fish": [
+						{
+							"Id": "THTforest_Fish",
+							"ItemId": "LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH"
+						}
+					],
+					"Forage": [
+						{
+							"ID": "{{ModId}}_SpawnSpringForage6",
+							"RandomItemId": [
+								"(O){{ModId}}_BarbadosCherry",
+								"(O){{ModId}}_LilacTasselflower",
+								"(O){{ModId}}_TridaxDaisy"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Spring"
+						},
+						{
+							"ID": "{{ModId}}_SpawnSummerForage6",
+							"RandomItemId": [
+								"(O){{ModId}}_BengalDayflower",
+								"(O){{ModId}}_BlackNightshade",
+								"(O){{ModId}}_GlobeAmaranth"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Summer"
+						},
+						{
+							"ID": "{{ModId}}_SpawnFallForage6",
+							"RandomItemId": [
+								"(O){{ModId}}_CosmoFlower",
+								"(O){{ModId}}_WildCoquinho",
+								"(O){{ModId}}_WildSurinamCherry"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Fall"
+						},
+						{
+							"ID": "{{ModId}}_SpawnWinterForage6",
+							"RandomItemId": [
+								"(O){{ModId}}_WildRosemary"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Winter"
+						}
+					]
+				},
+				"{{ModId}}_THTforest": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTforest"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map8}}",
+					"DefaultArrivalTile": {
+						"X": 1,
+						"Y": 48
+					},
+					"Forage": [
+						{
+							"ID": "{{ModId}}_SpawnSpringForage6",
+							"RandomItemId": [
+								"(O){{ModId}}_SnakePlant",
+								"{{ModId}}_Chicory"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Spring"
+						},
+						{
+							"ID": "{{ModId}}_SpawnSummerForage6",
+							"RandomItemId": [
+								"(O){{ModId}}_Mandacaru",
+								"{{ModId}}_WildPeanut"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Summer"
+						},
+						{
+							"ID": "{{ModId}}_SpawnFallForage6",
+							"RandomItemId": [
+								"(O){{ModId}}_PindoRamaNut",
+								"(O){{ModId}}_Chicory"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Fall"
+						},
+						{
+							"ID": "{{ModId}}_SpawnWinterForage6",
+							"RandomItemId": [
+								"(O){{ModId}}_WildRosemary",
+								"(O){{ModId}}_CrystalRose"
+							],
+							"Chance": 1,
+							"Condition": "SEASON Winter"
+						}
+					]
+				},
+				"{{ModId}}_THTBebelsHouse": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTBebelsHouse"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map9}}",
+					"DefaultArrivalTile": {
+						"X": 25,
+						"Y": 22
+					}
+				},
+				"{{ModId}}_THTJoja": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTJoja"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map10}}",
+					"DefaultArrivalTile": {
+						"X": 19,
+						"Y": 37
+					}
+				},
+				"{{ModId}}_THTWitchesHouse": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTWitchesHouse"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map11}}",
+					"DefaultArrivalTile": {
+						"X": 29,
+						"Y": 36
+					}
+				},
+				"{{ModId}}_THTWitchesHouse2": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTWitchesHouse2"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map11}}",
+					"DefaultArrivalTile": {
+						"X": 2,
+						"Y": 19
+					}
+				},
+				"{{ModId}}_THTFranciscosHouse": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTFranciscosHouse"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map12}}",
+					"DefaultArrivalTile": {
+						"X": 5,
+						"Y": 24
+					}
+				},
+				"{{ModId}}_THTFranciscosHouse2": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTFranciscosHouse2"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map12}}",
+					"DefaultArrivalTile": {
+						"X": 2,
+						"Y": 7
+					}
+				},
+				"{{ModId}}_THTAnahisHouse": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTAnahisHouse"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map13}}",
+					"DefaultArrivalTile": {
+						"X": 7,
+						"Y": 31
+					}
+				},
+				"{{ModId}}_THTAnahisHouse2": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTAnahisHouse2"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map13}}",
+					"DefaultArrivalTile": {
+						"X": 3,
+						"Y": 14
+					}
+				},
+				"{{ModId}}_THTEmiliasHouse": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTEmiliasHouse"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map14}}",
+					"DefaultArrivalTile": {
+						"X": 23,
+						"Y": 25
+					}
+				},
+				"{{ModId}}_THTEmiliasHouse2": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTEmiliasHouse2"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map14}}",
+					"DefaultArrivalTile": {
+						"X": 12,
+						"Y": 17
+					}
+				},
+				"{{ModId}}_THTBebelsPatio": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTBebelsPatio"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map15}}"
+				},
+				"{{ModId}}_THTBebelsSpouseRoom": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTBebelsSpouseRoom"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map16}}"
+				},
+				"{{ModId}}_THTAnahisSpouseRoom": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTBebelsSpouseRoom"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map26}}"
+				},
+				"{{ModId}}_THTFF1": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTFF1"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map17}}"
+				},
+				"{{ModId}}_THTVerasBedroom": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTVerasBedroom"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map19}}"
+				},
+				"{{ModId}}_THTSolsBedroom": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTSolsBedroom"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map20}}"
+				},
+				"{{ModId}}_THTNarcisosBedroom": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTNarcisosBedroom"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map21}}"
+				},
+				"{{ModId}}_THTBiancasBedroom": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTBiancasBedroom"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map22}}"
+				},
+				"{{ModId}}_THTWitchesHouse2Refurnished": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTWitchesHouse2Refurnished"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map23}}"
+				},
+				"{{ModId}}_THTWitchesHouseRefurnished": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTWitchesHouseRefurnished"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map23}}"
+				},
+				"{{ModId}}_THTAdriannosHouse": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTAdriannosHouse"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map24}}"
+				},
+				"{{ModId}}_THTAdriannosHouse2": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTAdriannosHouse2"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map25}}"
+				},
+				"{{ModId}}_THTAnahisPatio": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTAnahisPatio"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map27}}"
+				},
+				"{{ModId}}_THTGraveyard": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_THTGraveyard"
+					},
+					"DisplayName": "{{i18n: CheshiresAtelier.THTexpansion_Map28}}"
+				}
+			}
+		},
+		// Maps
+		{
+			"LogName": "Add custom locations",
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_THTbackwoods",
+			"FromFile": "assets/maps/{{ModID}}_THTbackwoods.tmx"
+		},
+		{
+			"LogName": "Add custom locations",
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_THTsecretPlace1",
+			"FromFile": "assets/maps/{{ModID}}_THTsecretPlace1.tmx"
+		},
+		{
+			"LogName": "Add custom locations",
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_THTBackwoodsStairs",
+			"FromFile": "assets/maps/{{ModID}}_THTBackwoodsStairs.tmx"
+		},
+		{
+			"LogName": "Add custom locations",
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_THTBackwoodsStairs01",
+			"FromFile": "assets/maps/{{ModID}}_THTBackwoodsStairs01.tmx"
+		},
+		{
+			"LogName": "Add custom locations",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTtown",
+			"FromFile": "assets/maps/{{ModID}}_THTtown.tmx"
+		},
+		{
+			"LogName": "Load Cida's House Interior Map",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTCidasHouse",
+			"FromFile": "assets/maps/{{ModID}}_THTCidasHouse.tmx"
+		},
+		{
+			"LogName": "Load THT beach",
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_THTbeach",
+			"FromFile": "assets/maps/{{ModId}}_THTbeach.tmx"
+		},
+		{
+			"LogName": "Load secret place 2",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTsecretPlace2",
+			"FromFile": "assets/maps/{{ModID}}_THTsecretPlace2.tmx"
+		},
+		{
+			"LogName": "Load forest",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTforest",
+			"FromFile": "assets/maps/{{ModID}}_THTforest.tmx"
+		},
+		{
+			"LogName": "Load Bebel's House Interior Map",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTBebelsHouse",
+			"FromFile": "assets/maps/{{ModID}}_THTBebelsHouse.tmx"
+		},
+		{
+			"LogName": "Load Joja's Interior Map",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTJoja",
+			"FromFile": "assets/maps/{{ModID}}_THTJoja.tmx"
+		},
+		{
+			"LogName": "Load Witches house Interior Map",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTWitchesHouse",
+			"FromFile": "assets/maps/{{ModID}}_THTWitchesHouse.tmx"
+		},
+		{
+			"LogName": "Load Witches house Interior Map 2",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTWitchesHouse2",
+			"FromFile": "assets/maps/{{ModID}}_THTWitchesHouse2.tmx"
+		},
+		{
+			"LogName": "Load Franciscos house interior map",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTFranciscosHouse",
+			"FromFile": "assets/maps/{{ModID}}_THTFranciscosHouse.tmx"
+		},
+		{
+			"LogName": "Load Franciscos house interior map 2",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTFranciscosHouse2",
+			"FromFile": "assets/maps/{{ModID}}_THTFranciscosHouse2.tmx"
+		},
+		{
+			"LogName": "Load Anahis house interior map",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTAnahisHouse",
+			"FromFile": "assets/maps/{{ModID}}_THTAnahisHouse.tmx"
+		},
+		{
+			"LogName": "Load Anahis house interior map 2",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTAnahisHouse2",
+			"FromFile": "assets/maps/{{ModID}}_THTAnahisHouse2.tmx"
+		},
+		{
+			"LogName": "Load Emilias house interior map",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTEmiliasHouse",
+			"FromFile": "assets/maps/{{ModID}}_THTEmiliasHouse.tmx"
+		},
+		{
+			"LogName": "Load Emilias house interior map 2",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTEmiliasHouse2",
+			"FromFile": "assets/maps/{{ModID}}_THTEmiliasHouse2.tmx"
+		},
+		{
+			"LogName": "Load Bebels spouse patio",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTBebelsPatio",
+			"FromFile": "assets/maps/{{ModID}}_THTBebelsPatio.tmx"
+		},
+		{
+			"LogName": "Load Bebels spouse room",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTBebelsSpouseRoom",
+			"FromFile": "assets/maps/{{ModID}}_THTBebelsSpouseRoom.tmx"
+		},
+		{
+			"LogName": "Load Flower festival area 1",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTFF1",
+			"FromFile": "assets/maps/{{ModID}}_THTFF1.tmx"
+		},
+		{
+			"LogName": "Load Vera's bedroom after finishing a bundle",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTVerasBedroom",
+			"FromFile": "assets/maps/{{ModID}}_THTVerasBedroom.tmx"
+		},
+		{
+			"LogName": "Load Sol's bedroom after finishing a bundle",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTSolsBedroom",
+			"FromFile": "assets/maps/{{ModID}}_THTSolsBedroom.tmx"
+		},
+		{
+			"LogName": "Load Narciso's bedroom after finishing a bundle",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTNarcisosBedroom",
+			"FromFile": "assets/maps/{{ModID}}_THTNarcisosBedroom.tmx"
+		},
+		{
+			"LogName": "Load Bianca's bedroom after finishing a bundle",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTBiancasBedroom",
+			"FromFile": "assets/maps/{{ModID}}_THTBiancasBedroom.tmx"
+		},
+		{
+			"LogName": "Load refurnished witches house after finishing all bundles",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTWitchesHouse2Refurnished",
+			"FromFile": "assets/maps/{{ModID}}_THTWitchesHouse2Refurnished.tmx"
+		},
+		{
+			"LogName": "Load refurnished witches house after finishing all bundles",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTWitchesHouseRefurnished",
+			"FromFile": "assets/maps/{{ModID}}_THTWitchesHouseRefurnished.tmx"
+		},
+		{
+			"LogName": "Load Adrianno's House",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTAdriannosHouse",
+			"FromFile": "assets/maps/{{ModID}}_THTAdriannosHouse.tmx"
+		},
+		{
+			"LogName": "Load Adrianno's House 2",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTAdriannosHouse2",
+			"FromFile": "assets/maps/{{ModID}}_THTAdriannosHouse2.tmx"
+		},
+		{
+			"LogName": "Load Anahi's spouse room",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTAnahisSpouseRoom",
+			"FromFile": "assets/maps/{{ModID}}_THTAnahisSpouseRoom.tmx"
+		},
+		{
+			"LogName": "Load Anahi's patio",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTAnahisPatio",
+			"FromFile": "assets/maps/{{ModID}}_THTAnahisPatio.tmx"
+		},
+		{
+			"LogName": "Load Graveyard",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_THTGraveyard",
+			"FromFile": "assets/maps/{{ModID}}_THTGraveyard.tmx"
+		},
+		//Festival maps
+		{
+			"LogName": "Add THT FF to FF map",
+			"Action": "EditMap",
+			"Target": "Maps/Forest-FlowerFestival",
+			"PatchMode": "Replace",
+			"FromFile": "assets/maps/{{ModId}}_THTFF1.tmx",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 29
+			},
+			"ToArea": {
+				"X": 67,
+				"Y": 20,
+				"Width": 32,
+				"Height": 29
+			},
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
+			}
+		},
+		{
+			"LogName": "Add THT FF to FF map",
+			"Action": "EditMap",
+			"Target": "Maps/Forest-FlowerFestival",
+			"PatchMode": "Replace",
+			"FromFile": "assets/maps/{{ModId}}_THTFF1.tmx",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 29
+			},
+			"ToArea": {
+				"X": 67,
+				"Y": 20,
+				"Width": 32,
+				"Height": 29
+			},
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
+			}
+		},
+		{
+			"LogName": "Add THT FF to FF map",
+			"Action": "EditMap",
+			"Target": "Maps/Forest-FlowerFestival2",
+			"PatchMode": "Replace",
+			"FromFile": "assets/maps/{{ModId}}_THTFF1.tmx",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 29
+			},
+			"ToArea": {
+				"X": 67,
+				"Y": 20,
+				"Width": 32,
+				"Height": 29
+			},
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
+			}
+		},
+		{
+			"LogName": "Add THT FF to FF map",
+			"Action": "EditMap",
+			"Target": "Maps/Forest-FlowerFestival2",
+			"PatchMode": "Replace",
+			"FromFile": "assets/maps/{{ModId}}_THTFF1.tmx",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 29
+			},
+			"ToArea": {
+				"X": 67,
+				"Y": 20,
+				"Width": 32,
+				"Height": 29
+			},
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasSeenEvent": "CheshiresAtelier.THTexpansion_THTstairsDebrisQuestDone"
+			}
+		},
+		//Including files '-'
+		{
+			"Action": "Include",
+			"FromFile": "data/Items/Items.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/maps/maps.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Events/Events.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Quests/BackwoodsDebris.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Quests/Quests.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Mail/Mail.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Fish/fish.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Fish/locations.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Fish/pond.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Fish/behavior.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Fish/aquarium.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Shops/Shops.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Strings/MapStrings.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Monsters/Monsters.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Machines/Perfumaker.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Machines/Chocolatier.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Bundles/Bundles.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Machines/BouquetMaker.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Machines/PamperingMachine.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/TriggerActions/TriggerActions.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/Characters/ConversationTopics.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Machines/IcePopFreezer.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Machines/CanMachine.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Machines/PlushiesMachine.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Machines/JuicesMachine.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Machines/CoffeeMachine.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Machines/MiniKittyOven.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Machines/FestaJuninaStall.json"
+		},
+		{
+			"LogName": "Custom Locations Events Blank",
+			"Action": "Load",
+			"Target": "Data/Events/{{ModId}}_THTBackwoodsStairs",
+			"FromFile": "assets/blank.json"
+		},
+		{
+			"LogName": "Custom Locations Events Blank",
+			"Action": "Load",
+			"Target": "Data/Events/{{ModId}}_THTWitchesHouse2",
+			"FromFile": "assets/blank.json"
+		},
+		{
+			"LogName": "Custom Locations Events Blank",
+			"Action": "Load",
+			"Target": "Data/Events/{{ModId}}_THTforest",
+			"FromFile": "assets/blank.json"
+		},
+		{
+			"LogName": "Custom Locations Events Blank",
+			"Action": "Load",
+			"Target": "Data/Events/{{ModId}}_THTtown",
+			"FromFile": "assets/blank.json"
+		},
+		//NPCs Blank
+		{
+			"LogName": "Blank JSON load",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/{{ModId}}_Cida, Characters/schedules/{{ModId}}_Cida",
+			"FromFile": "assets/blank.json"
+		},
+		{
+			"LogName": "Blank JSON load",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/{{ModId}}_Princess, Characters/schedules/{{ModId}}_Princess",
+			"FromFile": "assets/blank.json"
+		},
+		{
+			"LogName": "Blank JSON load",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/{{ModId}}_Bebel, Characters/schedules/{{ModId}}_Bebel, Characters/Dialogue/MarriageDialogue{{ModId}}_Bebel",
+			"FromFile": "assets/blank.json"
+		},
+		{
+			"LogName": "Blank JSON load",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/{{ModId}}_Anahi, Characters/schedules/{{ModId}}_Anahi, Characters/Dialogue/MarriageDialogue{{ModId}}_Anahi",
+			"FromFile": "assets/blank.json"
+		},
+		{
+			"LogName": "Blank JSON load",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/{{ModId}}_Mayara, Characters/schedules/{{ModId}}_Mayara",
+			"FromFile": "assets/blank.json"
+		},
+		{
+			"LogName": "Blank JSON load",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/{{ModId}}_Francisco, Characters/schedules/{{ModId}}_Francisco, Characters/Dialogue/MarriageDialogue{{ModId}}_Francisco",
+			"FromFile": "assets/blank.json"
+		},
+		{
+			"LogName": "Blank JSON load",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/{{ModId}}_Adrianno, Characters/schedules/{{ModId}}_Adrianno, Characters/Dialogue/MarriageDialogue{{ModId}}_Adrianno",
+			"FromFile": "assets/blank.json"
+		},
+		{
+			"LogName": "Blank JSON load",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/{{ModId}}_Julieta, Characters/schedules/{{ModId}}_Julieta, Characters/Dialogue/MarriageDialogue{{ModId}}_Julieta",
+			"FromFile": "assets/blank.json"
+		},
+		{
+			"LogName": "Blank JSON load",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/{{ModId}}_Camelia, Characters/schedules/{{ModId}}_Camelia",
+			"FromFile": "assets/blank.json"
+		},
+		{
+			"LogName": "Blank JSON load",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/{{ModId}}_Levi, Characters/schedules/{{ModId}}_Levi",
+			"FromFile": "assets/blank.json"
+		},
+		//Including NPCs Files
+		{
+			"LogName": "NPC Gift tastes",
+			"Action": "Include",
+			"FromFile": "assets/Characters/GiftTastes.json"
+		},
+		{
+			"LogName": "My ocs exist!",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Dispositions.json"
+		},
+		{
+			"LogName": "NPC Festival",
+			"Action": "Include",
+			"FromFile": "assets/Characters/FestivalData/FestivalData.json"
+		},
+		//Cida
+		{
+			"LogName": "Base Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Cida",
+			"FromFile": "assets/Characters/Cida/Portraits/Cida.png"
+		},
+		{
+			"LogName": "Base sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Cida",
+			"FromFile": "assets/Characters/Cida/Sprites/Cida.png"
+		},
+		{
+			"LogName": "Base Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Cida_Beach",
+			"FromFile": "assets/Characters/Cida/Portraits/Cida_Beach.png"
+		},
+		{
+			"LogName": "Base sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Cida_Beach",
+			"FromFile": "assets/Characters/Cida/Sprites/Cida_Beach.png"
+		},
+		{
+			"LogName": "Base Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Cida_Winter",
+			"FromFile": "assets/Characters/Cida/Portraits/Cida_Winter.png"
+		},
+		{
+			"LogName": "Base sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Cida_Winter",
+			"FromFile": "assets/Characters/Cida/Sprites/Cida_Winter.png"
+		},
+		{
+			"LogName": "NPC Dialogue",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Cida/Dialogue/Dialogue.json"
+		},
+		{
+			"LogName": "NPC Schedule",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Cida/Schedule/Schedule.json"
+		},
+		{
+			"LogName": "Cida animations",
+			"Action": "EditData",
+			"Target": "Data/animationdescriptions",
+			"Entries": {
+				"{{ModId}}_Cida_sleep": "17/17/17"
+			}
+		},
+		//Princess
+		{
+			"LogName": "Base Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Princess",
+			"FromFile": "assets/Characters/Princess/Portraits/Princess.png"
+		},
+		{
+			"LogName": "Base sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Princess",
+			"FromFile": "assets/Characters/Princess/Sprites/Princess.png"
+		},
+		{
+			"LogName": "Beach Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Princess_Beach",
+			"FromFile": "assets/Characters/Princess/Portraits/Princess_Beach.png"
+		},
+		{
+			"LogName": "Beach sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Princess_Beach",
+			"FromFile": "assets/Characters/Princess/Sprites/Princess_Beach.png"
+		},
+		{
+			"LogName": "Winter Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Princess_Winter",
+			"FromFile": "assets/Characters/Princess/Portraits/Princess_Winter.png"
+		},
+		{
+			"LogName": "Winter sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Princess_Winter",
+			"FromFile": "assets/Characters/Princess/Sprites/Princess_Winter.png"
+		},
+		{
+			"LogName": "NPC Dialogue",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Princess/Dialogue/Dialogue.json"
+		},
+		{
+			"LogName": "NPC Schedule",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Princess/Schedule/Schedule.json"
+		},
+		{
+			"LogName": "Princess animations",
+			"Action": "EditData",
+			"Target": "Data/animationdescriptions",
+			"Entries": {
+				"{{ModId}}_Princess_sit": "16/17 18/17",
+				"{{ModId}}_Princess_sleep": "19/19/19"
+			}
+		},
+		//Bebel
+		{
+			"LogName": "Base Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Bebel",
+			"FromFile": "assets/Characters/Bebel/Portraits/Bebel.png"
+		},
+		{
+			"LogName": "Base sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Bebel",
+			"FromFile": "assets/Characters/Bebel/Sprites/Bebel.png"
+		},
+		{
+			"LogName": "Base Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Bebel_Beach",
+			"FromFile": "assets/Characters/Bebel/Portraits/Bebel_Beach.png"
+		},
+		{
+			"LogName": "Base sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Bebel_Beach",
+			"FromFile": "assets/Characters/Bebel/Sprites/Bebel_Beach.png"
+		},
+		{
+			"LogName": "Base Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Bebel_Winter",
+			"FromFile": "assets/Characters/Bebel/Portraits/Bebel_Winter.png"
+		},
+		{
+			"LogName": "Base sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Bebel_Winter",
+			"FromFile": "assets/Characters/Bebel/Sprites/Bebel_Winter.png"
+		},
+		{
+			"LogName": "NPC Dialogue",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Bebel/Dialogue/Dialogue.json"
+		},
+		{
+			"LogName": "NPC Marriage Dialogue",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Bebel/Dialogue/MarriageDialogue.json"
+		},
+		{
+			"LogName": "NPC Schedule",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Bebel/Schedule/Schedule.json"
+		},
+		{
+			"LogName": "Bebel animations",
+			"Action": "EditData",
+			"Target": "Data/animationdescriptions",
+			"Entries": {
+				"{{ModId}}_Bebel_write": "16/17 18/17",
+				"{{ModId}}_Bebel_work": "48/49 48/49",
+				"{{ModId}}_Bebel_sleep": "51/51/51"
+			}
+		},
+		//Anahi
+		{
+			"LogName": "Base Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Anahi",
+			"FromFile": "assets/Characters/Anahi/Portraits/Anahi.png"
+		},
+		{
+			"LogName": "Base sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Anahi",
+			"FromFile": "assets/Characters/Anahi/Sprites/Anahi.png"
+		},
+		{
+			"LogName": "Base Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Anahi_Beach",
+			"FromFile": "assets/Characters/Anahi/Portraits/Anahi_Beach.png"
+		},
+		{
+			"LogName": "Base sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Anahi_Beach",
+			"FromFile": "assets/Characters/Anahi/Sprites/Anahi_Beach.png"
+		},
+		{
+			"LogName": "Base Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Anahi_Winter",
+			"FromFile": "assets/Characters/Anahi/Portraits/Anahi_Winter.png"
+		},
+		{
+			"LogName": "Base sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Anahi_Winter",
+			"FromFile": "assets/Characters/Anahi/Sprites/Anahi_Winter.png"
+		},
+		{
+			"LogName": "Base Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Anahi_Grafism",
+			"FromFile": "assets/Characters/Anahi/Portraits/Anahi_Grafism.png"
+		},
+		{
+			"LogName": "NPC Dialogue",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Anahi/Dialogue/Dialogue.json"
+		},
+		{
+			"LogName": "NPC Marriage Dialogue",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Anahi/Dialogue/MarriageDialogue.json"
+		},
+		{
+			"LogName": "NPC Schedule",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Anahi/Schedule/Schedule.json"
+		},
+		{
+			"LogName": "Anahi animations",
+			"Action": "EditData",
+			"Target": "Data/animationdescriptions",
+			"Entries": {
+				"{{ModId}}_Anahi_pc": "19/20 19/20",
+				"{{ModId}}_Anahi_drink": "21/21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 22 23 24 25 24 25 24 25 26 26 26 27 27 27 26 26 26 27 27 27 26 26 26 27 27 27 26 26 26 27 27 27 29/21",
+				"{{ModId}}_Anahi_read": "16/16 16 16 16 17 17 17 17/17",
+				"{{ModId}}_Anahi_sleep": "51/51/51"
+			}
+		},
+		//Mayara
+		{
+			"LogName": "Base Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Mayara",
+			"FromFile": "assets/Characters/Mayara/Portraits/Mayara.png"
+		},
+		{
+			"LogName": "Base Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Mayara_Friday",
+			"FromFile": "assets/Characters/Mayara/Portraits/Mayara_Friday.png"
+		},
+		{
+			"LogName": "Base Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Mayara_Winter",
+			"FromFile": "assets/Characters/Mayara/Portraits/Mayara_Winter.png"
+		},
+		{
+			"LogName": "Base Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Mayara_WinterFriday",
+			"FromFile": "assets/Characters/Mayara/Portraits/Mayara_WinterFriday.png"
+		},
+		{
+			"LogName": "Base sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Mayara",
+			"FromFile": "assets/Characters/Mayara/Sprites/Mayara.png"
+		},
+		{
+			"LogName": "Base sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Mayara_Friday",
+			"FromFile": "assets/Characters/Mayara/Sprites/Mayara_Friday.png"
+		},
+		{
+			"LogName": "Base sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Mayara_Winter",
+			"FromFile": "assets/Characters/Mayara/Sprites/Mayara_Winter.png"
+		},
+		{
+			"LogName": "Base sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Mayara_WinterFriday",
+			"FromFile": "assets/Characters/Mayara/Sprites/Mayara_WinterFriday.png"
+		},
+		{
+			"LogName": "NPC Dialogue",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Mayara/Dialogue/Dialogue.json"
+		},
+		{
+			"LogName": "NPC Schedule",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Mayara/Schedule/Schedule.json"
+		},
+		{
+			"LogName": "Mayara animations",
+			"Action": "EditData",
+			"Target": "Data/animationdescriptions",
+			"Entries": {
+				"{{ModId}}_Mayara_read": "16/16 16 16 17 17 17 17 18 18 18 18 17 17 17/17",
+				"{{ModId}}_Mayara_sleep": "19/19/19"
+			}
+		},
+		//Chico
+		{
+			"LogName": "Base Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Francisco",
+			"FromFile": "assets/Characters/Francisco/Portraits/Francisco.png"
+		},
+		{
+			"LogName": "Base sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Francisco",
+			"FromFile": "assets/Characters/Francisco/Sprites/Francisco.png"
+		},
+		{
+			"LogName": "Base Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Francisco_Winter",
+			"FromFile": "assets/Characters/Francisco/Portraits/Francisco_Winter.png"
+		},
+		{
+			"LogName": "Base sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Francisco_Winter",
+			"FromFile": "assets/Characters/Francisco/Sprites/Francisco_Winter.png"
+		},
+		{
+			"LogName": "NPC Dialogue",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Francisco/Dialogue/Dialogue.json"
+		},
+		{
+			"LogName": "NPC Marriage Dialogue",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Francisco/Dialogue/MarriageDialogue.json"
+		},
+		{
+			"LogName": "NPC Schedule",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Francisco/Schedule/Schedule.json"
+		},
+		{
+			"LogName": "Francisco animations",
+			"Action": "EditData",
+			"Target": "Data/animationdescriptions",
+			"Entries": {
+				"{{ModId}}_Francisco_read": "25/25 25 25 26 26 26/26",
+				"{{ModId}}_Francisco_sitandread": "36/36 36 36 36 36 36 36 36 38 38 38 38 38 39 39 39 38 40 40 40 38 39 39 39 38 40 40 40 38 36/36",
+				"{{ModId}}_Francisco_sleep": "51/51/51"
+			}
+		},
+		//Adrianno
+		{
+			"LogName": "Base Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Adrianno",
+			"FromFile": "assets/Characters/Adrianno/Portraits/Adrianno.png"
+		},
+		{
+			"LogName": "Base sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Adrianno",
+			"FromFile": "assets/Characters/Adrianno/Sprites/Adrianno.png"
+		},
+		{
+			"LogName": "NPC Dialogue",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Adrianno/Dialogue/Dialogue.json"
+		},
+		{
+			"LogName": "NPC Marriage Dialogue",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Adrianno/Dialogue/MarriageDialogue.json"
+		},
+		{
+			"LogName": "NPC Schedule",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Adrianno/Schedule/Schedule.json"
+		},
+		{
+			"LogName": "Adrianno animations",
+			"Action": "EditData",
+			"Target": "Data/animationdescriptions",
+			"Entries": {
+				"{{ModId}}_Adrianno_stare": "16/16 16 16 16 16 16 16 16 16 16 16 16 17 18 18 18 18 18 17 19 19 19 19 19 19 19 19 19 17 16 16 16 16 16 16 16/16",
+				"{{ModId}}_Adrianno_nap": "51/51/51",
+				"{{ModId}}_Adrianno_sleep": "51/51/51"
+			}
+		},
+		//Ju
+		{
+			"LogName": "Base Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Julieta",
+			"FromFile": "assets/Characters/Julieta/Portraits/Julieta.png"
+		},
+		{
+			"LogName": "Base sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Julieta",
+			"FromFile": "assets/Characters/Julieta/Sprites/Julieta.png"
+		},
+		{
+			"LogName": "NPC Dialogue",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Julieta/Dialogue/Dialogue.json"
+		},
+		{
+			"LogName": "NPC Marriage Dialogue",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Julieta/Dialogue/MarriageDialogue.json"
+		},
+		{
+			"LogName": "NPC Schedule",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Julieta/Schedule/Schedule.json"
+		},
+		{
+			"LogName": "Julieta animations",
+			"Action": "EditData",
+			"Target": "Data/animationdescriptions",
+			"Entries": {
+				"{{ModId}}_Julieta_sleep": "51/51/51",
+				"{{ModId}}_Julieta_play": "18/19 18 19 18 19 18 19 18 19 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 19 18 19 18 19 18 18 18 18 18 18 18 18 18/19"
+			}
+		},
+		//Camelia
+		{
+			"LogName": "Base Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Camelia",
+			"FromFile": "assets/Characters/Camelia/Portraits/Camelia.png"
+		},
+		{
+			"LogName": "Base sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Camelia",
+			"FromFile": "assets/Characters/Camelia/Sprites/Camelia.png"
+		},
+		{
+			"LogName": "NPC Dialogue",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Camelia/Dialogue/Dialogue.json"
+		},
+		{
+			"LogName": "NPC Schedule",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Camelia/Schedule/Schedule.json"
+		},
+		{
+			"LogName": "Camelia animations",
+			"Action": "EditData",
+			"Target": "Data/animationdescriptions",
+			"Entries": {
+				"{{ModId}}_Camelia_sleep": "23/23/23"
+			}
+		},
+		//Levi
+		{
+			"LogName": "Base Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Levi",
+			"FromFile": "assets/Characters/Levi/Portraits/Levi.png"
+		},
+		{
+			"LogName": "Base sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Levi",
+			"FromFile": "assets/Characters/Levi/Sprites/Levi.png"
+		},
+		{
+			"LogName": "NPC Dialogue",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Levi/Dialogue/Dialogue.json"
+		},
+		{
+			"LogName": "NPC Schedule",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Levi/Schedule/Schedule.json"
+		},
+		{
+			"LogName": "Levi animations",
+			"Action": "EditData",
+			"Target": "Data/animationdescriptions",
+			"Entries": {
+				"{{ModId}}_Levi_work": "22/22 22 22 22 22 22 22 22 22 22 22 22 22 22 23 24 25 24 24 25 24 25 24 26 24 25 25 24 26 23 22 22 22/22",
+				"{{ModId}}_Levi_smoke": "16/16 17 17 16 16 17 17 18 19 20 20 19 19 20 20 19 21 16 16 16 16 16 16 16 16/16",
+				"{{ModId}}_Levi_sleep": "27/27/27"
+			}
+		},
+		//Paçoca
+		{
+			"LogName": "Base Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Pacoca",
+			"FromFile": "assets/Characters/Pacoca/Portraits/Pacoca.png"
+		},
+		{
+			"LogName": "Base sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Pacoca",
+			"FromFile": "assets/Characters/Pacoca/Sprites/Pacoca.png"
+		},
+		{
+			"LogName": "NPC Dialogue",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Pacoca/Dialogue/Dialogue.json"
+		},
+		{
+			"LogName": "NPC Schedule",
+			"Action": "Include",
+			"FromFile": "assets/Characters/Pacoca/Schedule/Schedule.json"
+		},
+		{
+			"LogName": "Pacoca animations",
+			"Action": "EditData",
+			"Target": "Data/animationdescriptions",
+			"Entries": {
+				"{{ModId}}_Pacoca_sit": "16/17 18/17",
+				"{{ModId}}_Pacoca_nap": "19/19 19/19",
+				"{{ModId}}_Pacoca_sleep": "19/19 19/19"
+			}
+		},
+		//
+		// Tilesheets fixos
+		//
+		{
+			"Action": "Load",
+			"Target": "Maps/CheshiresAtelier.THTexpansion_IndoorsTilesheets",
+			"FromFile": "assets/maps/CheshiresAtelier.THTexpansion_IndoorsTilesheets.png"
+		},
+		//
+		// Nature – seasonal
+		//
+		{
+			"Action": "Load",
+			"Target": "Maps/spring_CheshiresAtelier.THTexpansionNature",
+			"FromFile": "assets/maps/spring_CheshiresAtelier.THTexpansionNature.png",
+			"When": {
+				"Season": "spring"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/summer_CheshiresAtelier.THTexpansionNature",
+			"FromFile": "assets/maps/summer_CheshiresAtelier.THTexpansionNature.png",
+			"When": {
+				"Season": "summer"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/fall_CheshiresAtelier.THTexpansionNature",
+			"FromFile": "assets/maps/fall_CheshiresAtelier.THTexpansionNature.png",
+			"When": {
+				"Season": "fall"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/winter_CheshiresAtelier.THTexpansionNature",
+			"FromFile": "assets/maps/winter_CheshiresAtelier.THTexpansionNature.png",
+			"When": {
+				"Season": "winter"
+			}
+		},
+		//
+		// TownTilesheets
+		//
+		{
+			"Action": "Load",
+			"Target": "Maps/spring_CheshiresAtelier.THTexpansionTownTilesheets",
+			"FromFile": "assets/maps/spring_CheshiresAtelier.THTexpansionTownTilesheets.png",
+			"When": {
+				"Season": "spring"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/summer_CheshiresAtelier.THTexpansionTownTilesheets",
+			"FromFile": "assets/maps/summer_CheshiresAtelier.THTexpansionTownTilesheets.png",
+			"When": {
+				"Season": "summer"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/fall_CheshiresAtelier.THTexpansionTownTilesheets",
+			"FromFile": "assets/maps/fall_CheshiresAtelier.THTexpansionTownTilesheets.png",
+			"When": {
+				"Season": "fall"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/winter_CheshiresAtelier.THTexpansionTownTilesheets",
+			"FromFile": "assets/maps/winter_CheshiresAtelier.THTexpansionTownTilesheets.png",
+			"When": {
+				"Season": "winter"
+			}
+		},
+		//
+		// TownTilesheets1
+		//
+		{
+			"Action": "Load",
+			"Target": "Maps/spring_CheshiresAtelier.THTexpansionTownTilesheets1",
+			"FromFile": "assets/maps/spring_CheshiresAtelier.THTexpansionTownTilesheets1.png",
+			"When": {
+				"Season": "spring"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/summer_CheshiresAtelier.THTexpansionTownTilesheets1",
+			"FromFile": "assets/maps/summer_CheshiresAtelier.THTexpansionTownTilesheets1.png",
+			"When": {
+				"Season": "summer"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/fall_CheshiresAtelier.THTexpansionTownTilesheets1",
+			"FromFile": "assets/maps/fall_CheshiresAtelier.THTexpansionTownTilesheets1.png",
+			"When": {
+				"Season": "fall"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/winter_CheshiresAtelier.THTexpansionTownTilesheets1",
+			"FromFile": "assets/maps/winter_CheshiresAtelier.THTexpansionTownTilesheets1.png",
+			"When": {
+				"Season": "winter"
+			}
+		},
+		//
+		// TownTilesheets2
+		//
+		{
+			"Action": "Load",
+			"Target": "Maps/spring_CheshiresAtelier.THTexpansionTownTilesheets2",
+			"FromFile": "assets/maps/spring_CheshiresAtelier.THTexpansionTownTilesheets2.png",
+			"When": {
+				"Season": "spring"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/summer_CheshiresAtelier.THTexpansionTownTilesheets2",
+			"FromFile": "assets/maps/summer_CheshiresAtelier.THTexpansionTownTilesheets2.png",
+			"When": {
+				"Season": "summer"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/fall_CheshiresAtelier.THTexpansionTownTilesheets2",
+			"FromFile": "assets/maps/fall_CheshiresAtelier.THTexpansionTownTilesheets2.png",
+			"When": {
+				"Season": "fall"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/winter_CheshiresAtelier.THTexpansionTownTilesheets2",
+			"FromFile": "assets/maps/winter_CheshiresAtelier.THTexpansionTownTilesheets2.png",
+			"When": {
+				"Season": "winter"
+			}
+		},
+		//
+		// TownTilesheets3
+		//
+		{
+			"Action": "Load",
+			"Target": "Maps/spring_CheshiresAtelier.THTexpansionTownTilesheets3",
+			"FromFile": "assets/maps/spring_CheshiresAtelier.THTexpansionTownTilesheets3.png",
+			"When": {
+				"Season": "spring"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/summer_CheshiresAtelier.THTexpansionTownTilesheets3",
+			"FromFile": "assets/maps/summer_CheshiresAtelier.THTexpansionTownTilesheets3.png",
+			"When": {
+				"Season": "summer"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/fall_CheshiresAtelier.THTexpansionTownTilesheets3",
+			"FromFile": "assets/maps/fall_CheshiresAtelier.THTexpansionTownTilesheets3.png",
+			"When": {
+				"Season": "fall"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/winter_CheshiresAtelier.THTexpansionTownTilesheets3",
+			"FromFile": "assets/maps/winter_CheshiresAtelier.THTexpansionTownTilesheets3.png",
+			"When": {
+				"Season": "winter"
+			}
+		},
+		//
+		// TownTilesheets4
+		//
+		{
+			"Action": "Load",
+			"Target": "Maps/spring_CheshiresAtelier.THTexpansionTownTilesheets4",
+			"FromFile": "assets/maps/spring_CheshiresAtelier.THTexpansionTownTilesheets4.png",
+			"When": {
+				"Season": "spring"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/summer_CheshiresAtelier.THTexpansionTownTilesheets4",
+			"FromFile": "assets/maps/summer_CheshiresAtelier.THTexpansionTownTilesheets4.png",
+			"When": {
+				"Season": "summer"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/fall_CheshiresAtelier.THTexpansionTownTilesheets4",
+			"FromFile": "assets/maps/fall_CheshiresAtelier.THTexpansionTownTilesheets4.png",
+			"When": {
+				"Season": "fall"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/winter_CheshiresAtelier.THTexpansionTownTilesheets4",
+			"FromFile": "assets/maps/winter_CheshiresAtelier.THTexpansionTownTilesheets4.png",
+			"When": {
+				"Season": "winter"
+			}
+		}
+	]
+}
