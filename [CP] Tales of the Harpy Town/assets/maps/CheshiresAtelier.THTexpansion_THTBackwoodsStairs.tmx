@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="left-down" width="55" height="35" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="29">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="left-down" width="55" height="35" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="24">
  <properties>
   <property name="Forage" value="True"/>
   <property name="Outdoors" value="True"/>
@@ -1640,11 +1640,6 @@
   <object id="22" name="TileData" x="80" y="240" width="16" height="16">
    <properties>
     <property name="Action" value="OpenShop CheshiresAtelier.THTexpansion_CidaShop none 1000 2500 5 13 2 2"/>
-   </properties>
-  </object>
-  <object id="28" name="TileData" x="480" y="192" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;THTBackwoodsStairs.1&quot;"/>
    </properties>
   </object>
  </objectgroup>
