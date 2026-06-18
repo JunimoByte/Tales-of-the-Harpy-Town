@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="left-down" width="35" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="10">
+<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="left-down" width="35" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="30">
  <properties>
   <property name="AmbientLight" value=""/>
   <property name="Doors" value="9 17 1 120 9 10 1 120 18 10 1 120"/>
@@ -76,7 +76,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3161,3162,3163,3164,0,0,262,1610615427,0,0,650,0,0,0,0,0,
 0,0,0,2338,7277,7278,7279,0,2338,0,2338,2338,2338,0,0,0,0,0,0,3193,3194,3195,3196,0,0,262,536873634,536873666,0,0,0,0,0,0,0,
 0,0,0,0,3089,3090,3091,0,0,0,0,0,0,0,0,0,0,0,0,3225,3226,3227,3228,0,0,262,536873635,536873667,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,2691,2692,0,0,0,0,0,0,0,0,0,0,0,0,0,262,0,0,3032,3033,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,2691,2692,0,0,3604,0,0,0,0,0,0,0,0,0,0,262,0,0,3032,3033,0,0,0,0,0,
 0,0,0,0,0,0,2722,2723,0,0,0,0,0,2958,2959,2960,0,0,0,0,0,0,0,0,0,262,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,2754,2755,0,0,0,0,0,2990,2991,2992,0,0,0,0,0,0,0,0,0,262,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,3022,3023,3024,0,0,0,0,0,0,0,0,0,262,0,0,0,0,0,0,0,0,0,
@@ -105,7 +105,7 @@
 1,1,0,0,7245,7246,7247,0,262,121,260,0,0,0,0,0,1,1,0,0,0,0,0,434,0,0,2912,0,0,0,0,1,1,1,1,
 1,1,2338,0,0,0,0,2338,262,0,260,2338,2338,2338,2338,2338,1,1,714,0,0,0,0,587,588,0,2944,0,0,0,0,1,1,1,1,
 1,1,2742,0,0,0,0,0,0,0,0,0,2819,1316,1317,2380,1,1,746,0,0,0,0,619,620,0,0,0,2609,2610,1201,1,1,1,1,
-1,1,2774,0,7341,7342,7343,0,0,0,0,0,0,0,3604,664,1,1,0,0,0,0,0,0,0,0,0,0,0,1490,1491,1,1,1,1,
+1,1,2774,0,7341,7342,7343,0,0,0,0,0,0,0,0,664,1,1,0,0,0,0,0,0,0,0,0,0,0,1490,1491,1,1,1,1,
 1,1,2806,0,3604,0,0,0,0,0,0,0,0,0,0,696,1,1,535,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,
 1,1,2838,0,0,0,0,0,0,0,0,0,0,0,727,728,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,
@@ -244,6 +244,81 @@
   <object id="8" name="TileData" x="144" y="272" width="16" height="16">
    <properties>
     <property name="Action" value="Door"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="288" y="272" width="16" height="48">
+   <properties>
+    <property name="Action" value="Message &quot;THTBebelsHouse.1&quot;"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="208" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;THTBebelsHouse.3&quot;"/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="336" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;THTBebelsHouse.4&quot;"/>
+   </properties>
+  </object>
+  <object id="26" name="TileData" x="192" y="304" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;THTBebelsHouse.12&quot;"/>
+   </properties>
+  </object>
+  <object id="27" name="TileData" x="48" y="176" width="32" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;THTBebelsHouse.13&quot;"/>
+   </properties>
+  </object>
+  <object id="28" name="TileData" x="240" y="304" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;THTBebelsHouse.14&quot;"/>
+   </properties>
+  </object>
+  <object id="29" name="TileData" x="464" y="192" width="32" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;THTBebelsHouse.15&quot;"/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="432" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;THTBebelsHouse.5&quot;"/>
+   </properties>
+  </object>
+  <object id="19" name="TileData" x="368" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;THTBebelsHouse.6&quot;"/>
+   </properties>
+  </object>
+  <object id="20" name="TileData" x="288" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;THTBebelsHouse.7&quot;"/>
+   </properties>
+  </object>
+  <object id="21" name="TileData" x="176" y="80" width="32" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;THTBebelsHouse.8&quot;"/>
+   </properties>
+  </object>
+  <object id="22" name="TileData" x="128" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;THTBebelsHouse.9&quot;"/>
+   </properties>
+  </object>
+  <object id="24" name="TileData" x="416" y="272" width="16" height="32">
+   <properties>
+    <property name="Action" value="Message &quot;THTBebelsHouse.10&quot;"/>
+   </properties>
+  </object>
+  <object id="25" name="TileData" x="464" y="320" width="32" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;THTBebelsHouse.11&quot;"/>
+   </properties>
+  </object>
+  <object id="16" name="TileData" x="224" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;THTBebelsHouse.2&quot;"/>
    </properties>
   </object>
  </objectgroup>
