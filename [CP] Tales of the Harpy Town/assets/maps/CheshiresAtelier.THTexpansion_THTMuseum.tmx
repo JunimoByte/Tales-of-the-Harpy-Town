@@ -86,6 +86,72 @@
  <tileset firstgid="9817" name="CheshiresAtelier.THTexpansion_Fish" tilewidth="16" tileheight="16" tilecount="30" columns="10">
   <image source="CheshiresAtelier.THTexpansion_Fish.png" width="160" height="48"/>
  </tileset>
+ <tileset firstgid="9847" name="CheshiresAtelier.THTexpansion_AbutilonCrop" tilewidth="16" tileheight="16" tilecount="16" columns="8">
+  <image source="CheshiresAtelier.THTexpansion_AbutilonCrop.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="9863" name="CheshiresAtelier.THTexpansion_AcaiCrop" tilewidth="16" tileheight="16" tilecount="16" columns="8">
+  <image source="CheshiresAtelier.THTexpansion_AcaiCrop.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="9879" name="CheshiresAtelier.THTexpansion_BlackBeansCrop" tilewidth="16" tileheight="16" tilecount="16" columns="8">
+  <image source="CheshiresAtelier.THTexpansion_BlackBeansCrop.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="9895" name="CheshiresAtelier.THTexpansion_BlackEyedPeasCrop" tilewidth="16" tileheight="16" tilecount="16" columns="8">
+  <image source="CheshiresAtelier.THTexpansion_BlackEyedPeasCrop.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="9911" name="CheshiresAtelier.THTexpansion_BurrGherkinCrop" tilewidth="16" tileheight="16" tilecount="16" columns="8">
+  <image source="CheshiresAtelier.THTexpansion_BurrGherkinCrop.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="9927" name="CheshiresAtelier.THTexpansion_CassavaCrop" tilewidth="16" tileheight="16" tilecount="16" columns="8">
+  <image source="CheshiresAtelier.THTexpansion_CassavaCrop.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="9943" name="CheshiresAtelier.THTexpansion_CattleaOrchidCrop" tilewidth="16" tileheight="16" tilecount="16" columns="8">
+  <image source="CheshiresAtelier.THTexpansion_CattleaOrchidCrop.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="9959" name="CheshiresAtelier.THTexpansion_CupuassuCrop" tilewidth="16" tileheight="16" tilecount="16" columns="8">
+  <image source="CheshiresAtelier.THTexpansion_CupuassuCrop.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="9975" name="CheshiresAtelier.THTexpansion_FlameVineCrop" tilewidth="16" tileheight="16" tilecount="16" columns="8">
+  <image source="CheshiresAtelier.THTexpansion_FlameVineCrop.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="9991" name="CheshiresAtelier.THTexpansion_GuaranaCrop" tilewidth="16" tileheight="16" tilecount="16" columns="8">
+  <image source="CheshiresAtelier.THTexpansion_GuaranaCrop.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="10007" name="CheshiresAtelier.THTexpansion_GuavaTree" tilewidth="16" tileheight="16" tilecount="135" columns="27">
+  <image source="CheshiresAtelier.THTexpansion_GuavaTree.png" width="432" height="80"/>
+ </tileset>
+ <tileset firstgid="10142" name="CheshiresAtelier.THTexpansion_HolidayCactusCrop" tilewidth="16" tileheight="16" tilecount="16" columns="8">
+  <image source="CheshiresAtelier.THTexpansion_HolidayCactusCrop.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="10158" name="CheshiresAtelier.THTexpansion_JabuticabaTree" tilewidth="16" tileheight="16" tilecount="135" columns="27">
+  <image source="CheshiresAtelier.THTexpansion_JabuticabaTree.png" width="432" height="80"/>
+ </tileset>
+ <tileset firstgid="10293" name="CheshiresAtelier.THTexpansion_JatobaTree" tilewidth="16" tileheight="16" tilecount="135" columns="27">
+  <image source="CheshiresAtelier.THTexpansion_JatobaTree.png" width="432" height="80"/>
+ </tileset>
+ <tileset firstgid="10428" name="CheshiresAtelier.THTexpansion_MorichePalmTree" tilewidth="16" tileheight="16" tilecount="135" columns="27">
+  <image source="CheshiresAtelier.THTexpansion_MorichePalmTree.png" width="432" height="80"/>
+ </tileset>
+ <tileset firstgid="10563" name="CheshiresAtelier.THTexpansion_PalmOilTree" tilewidth="16" tileheight="16" tilecount="135" columns="27">
+  <image source="CheshiresAtelier.THTexpansion_PalmOilTree.png" width="432" height="80"/>
+ </tileset>
+ <tileset firstgid="10698" name="CheshiresAtelier.THTexpansion_PindoRamaCacaoTree" tilewidth="16" tileheight="16" tilecount="135" columns="27">
+  <image source="CheshiresAtelier.THTexpansion_PindoRamaCacaoTree.png" width="432" height="80"/>
+ </tileset>
+ <tileset firstgid="10833" name="CheshiresAtelier.THTexpansion_PindoRamaDwarfMorningGloryCrop" tilewidth="16" tileheight="16" tilecount="16" columns="8">
+  <image source="CheshiresAtelier.THTexpansion_PindoRamaDwarfMorningGloryCrop.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="10849" name="CheshiresAtelier.THTexpansion_PrincessFlowerCrop" tilewidth="16" tileheight="16" tilecount="16" columns="8">
+  <image source="CheshiresAtelier.THTexpansion_PrincessFlowerCrop.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="10865" name="CheshiresAtelier.THTexpansion_SnowflakeCrop" tilewidth="16" tileheight="16" tilecount="16" columns="8">
+  <image source="CheshiresAtelier.THTexpansion_SnowflakeCrop.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="10881" name="CheshiresAtelier.THTexpansion_SugarCaneCrop" tilewidth="16" tileheight="16" tilecount="16" columns="8">
+  <image source="CheshiresAtelier.THTexpansion_SugarCaneCrop.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="10897" name="CheshiresAtelier.THTexpansion_WildRosemaryCrop" tilewidth="16" tileheight="16" tilecount="16" columns="8">
+  <image source="CheshiresAtelier.THTexpansion_WildRosemaryCrop.png" width="128" height="32"/>
+ </tileset>
  <layer id="1" name="Back" width="40" height="40">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -188,19 +254,19 @@
 1,3865,3866,3556,0,0,0,0,0,0,1105,1106,1106,1106,1106,1106,1106,1107,0,1105,1107,0,1105,1106,1106,1106,1106,1106,1106,1107,0,0,0,0,0,0,3556,3864,3865,1,
 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-1,0,3505,0,3506,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,3505,0,3506,0,0,
+1,0,3505,9861,3506,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,3505,10911,3506,0,0,
 1,0,3502,3504,3503,7429,0,0,0,0,3516,3827,3828,1,3824,3825,3826,3516,0,0,0,0,3516,3824,3825,3826,1,3825,3826,3516,0,0,0,0,7429,3502,3504,3503,0,0,
 1,0,0,0,0,0,0,0,587,588,3536,3847,3848,1,3844,3845,3846,3536,0,0,0,0,3536,3844,3845,3846,1,3845,3846,3536,0,0,0,0,0,0,0,0,0,0,
-1,0,3505,0,3506,0,0,0,619,620,3556,3867,3868,1,3864,3865,3866,3556,0,0,0,0,3556,3864,3865,3866,1,3865,3866,3556,0,0,0,0,0,3505,0,3506,0,0,
+1,0,3505,9877,3506,0,0,0,619,620,3556,3867,3868,1,3864,3865,3866,3556,0,0,0,0,3556,3864,3865,3866,1,3865,3866,3556,0,0,0,0,0,3505,10894,3506,0,0,
 1,0,3502,3504,3503,7429,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,7170,0,0,0,0,0,0,7429,3502,3504,3503,0,1,
 1,0,0,0,0,0,0,0,0,0,0,0,0,3516,0,0,0,0,0,0,0,0,0,0,0,0,3516,0,0,0,0,0,0,0,0,0,0,0,0,1,
-1,0,3505,0,3506,0,0,0,0,3505,0,3506,0,3536,0,3505,4041,3506,0,0,0,0,3505,0,3506,0,3536,0,3505,0,3506,0,0,0,0,3505,0,3506,0,1,
+1,0,3505,9893,3506,0,0,0,0,3505,9940,3506,0,3536,0,3505,4041,3506,0,0,0,0,3505,0,3506,0,3536,0,3505,10156,3506,0,0,0,0,3505,10879,3506,0,1,
 1,0,3502,3504,3503,7429,0,0,7429,3502,3504,3503,0,3556,0,3502,3504,3503,7429,0,0,7429,3502,3504,3503,0,3556,0,3502,3504,3503,7429,0,0,7429,3502,3504,3503,0,1,
 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-1,0,3505,0,3506,0,0,0,0,3505,0,3506,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3505,0,3506,0,0,0,0,3505,0,3506,0,1,
+1,0,3505,9909,3506,0,0,0,0,3505,9957,3506,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3505,10005,3506,0,0,0,0,3505,10863,3506,0,1,
 1,0,3502,3504,3503,7429,0,0,7429,3502,3504,3503,0,1,0,3505,0,3506,0,0,0,0,3505,0,3506,0,1,0,3502,3504,3503,7429,0,0,7429,3502,3504,3503,0,1,
 1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,3502,3504,3503,7429,0,3578,7429,3502,3504,3503,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,
-1,0,3505,0,3506,0,0,0,0,3505,0,3506,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,3505,0,3506,0,0,0,0,3505,0,3506,0,1,
+1,0,3505,9925,3506,0,0,0,0,3505,9972,3506,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,3505,9989,3506,0,0,0,0,3505,10847,3506,0,1,
 1,0,3502,3504,3503,7429,0,0,7429,3502,3504,3503,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,3502,3504,3503,7429,0,0,7429,3502,3504,3503,0,1,
 1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,3505,0,3506,0,0,0,0,3505,0,3506,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,
 1,1,1,1,0,0,1,1,0,0,1,1,1,1,0,3502,3504,3503,7429,0,0,7429,3502,3504,3503,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
@@ -249,12 +315,12 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,230,0,0,260,262,0,0,228,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,262,0,0,260,262,0,0,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,9818,0,262,0,0,260,262,0,0,260,0,9817,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9837,9839,9840,9833,9834,9826,9836,9827,9828,9829,9830,9831,0,
 0,3566,0,262,0,0,260,262,0,0,260,0,3566,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3566,3566,3566,3566,3566,3566,3566,3566,3566,3566,3566,3566,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,260,0,0,0,0,0,0,0,0,0,0,0,0,260,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,260,0,0,0,0,0,0,0,0,0,0,0,0,260,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,228,0,0,0,0,0,0,230,0,0,260,0,0,0,0,0,0,0,0,0,0,0,0,260,0,0,228,0,0,0,0,0,0,230,0,0,0,
-0,0,0,260,0,0,0,0,0,0,262,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,260,0,0,0,0,0,0,262,0,0,0,
+0,0,0,260,9819,9820,9821,9822,9823,9824,262,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,260,9832,9838,9843,9845,9841,9842,262,0,0,0,
 0,0,0,260,3566,3566,3566,3566,3566,3566,262,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,260,3566,3566,3566,3566,3566,3566,262,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3566,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -293,7 +359,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,260,0,0,0,0,0,0,262,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,260,0,0,0,0,0,0,262,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,260,0,0,9825,9844,0,0,262,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,260,0,0,3566,3566,0,0,262,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,262,0,0,0,0,0,0,0,0,0,0,0,0,262,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,262,0,0,0,0,0,0,0,0,0,0,0,0,262,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -363,19 +429,19 @@
 0,0,0,0,0,0,0,0,0,0,3613,0,3614,0,3618,0,3616,0,0,0,3601,0,3597,0,3619,0,3639,0,3623,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,9853,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10903,0,0,0,
 0,0,0,0,0,7397,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7397,0,0,0,0,0,
 0,0,0,0,0,0,0,0,555,556,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7074,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7106,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,9869,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7106,0,0,0,0,0,0,0,0,10886,0,0,0,
 0,0,0,0,0,7397,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7138,0,0,0,0,0,0,7397,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,9885,0,0,0,0,0,0,9932,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10148,0,0,0,0,0,0,10871,0,0,0,
 0,0,0,0,0,7397,0,0,7397,0,0,0,0,0,0,0,0,0,7397,0,0,7397,0,0,0,0,0,0,0,0,0,7397,0,0,7397,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,9901,0,0,0,0,0,0,9949,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9997,0,0,0,0,0,0,10855,0,0,0,
 0,0,0,0,0,7397,0,0,7397,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7397,0,0,7397,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7397,0,3558,7397,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,9964,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9981,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,7397,0,0,7397,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7397,0,0,7397,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7397,0,0,7397,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
